@@ -1,0 +1,29 @@
+
+
+button.btn.subscrib-btnn:hover {
+    background: #fff;
+color: #000;
+}
+
+button.btn.subscrib-btnn {
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    letter-spacing: 2px;
+    background-color: #000;
+    outline: none;
+    padding: 13px 33px;
+    border: 1px double #000;
+    margin: 22px 0px;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+.custom-select {
+    width: 75% !important;
+}

@@ -1,0 +1,43 @@
+.cart-small.cart-off {
+    position: absolute;
+    top: 0;
+    right: -315px;
+    z-index: 99;
+    opacity: 0;
+    position: fixed;
+    height: 100%;
+    background: #eee;
+    animation-name: cart-go;
+    transition: 1s;
+    
+}
+
+.cart-small.cart-on {
+    position: absolute;
+    top: 0;
+    max-width: 361px;
+    right: 0;
+    z-index: 99;
+    opacity: 1 !important;
+    position: fixed;
+    height: 100%;
+    background: #eee;
+    animation-name: cart-go;
+    transition: 1s;
+
+}
+
+.summary {
+    width: 316px;
+}
+
+@keyframes cart-go {
+    
+  }
+/* 
+.body-shadow {
+    opacity: 0.5;
+} */
+
+
+
